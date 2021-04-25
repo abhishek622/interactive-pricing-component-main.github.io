@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  text-align: center;
+
+  padding-top: 4.625rem;
+  padding-bottom: 3rem;
+
+  background-image: url(https://raw.githubusercontent.com/abhishek622/interactive-pricing-component-main.github.io/64fce4d87ee0976bf928d7a15471760a57234cc9/images/pattern-circles.svg);
+  background-position: center center;
+  background-size: 180px 180px;
+  background-repeat: no-repeat;
+
+  &__heading {
+    color: $dark_Desaturated_Blue;
+    font-weight: 800;
+
+    @include breakpoint-down(small) {
+      font-size: 6vmin;
+    }
+  }
+
+  &__text {
+    color: $grayish_Blue;
+    line-height: 1.8;
+    font-size: 1rem;
+
+    @include breakpoint-up(large) {
+      .break {
+        display: none;
+      }
+    }
+  }
+}

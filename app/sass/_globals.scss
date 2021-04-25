@@ -1,0 +1,57 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-family: 'Manrope', sans-serif;
+  background-color: $very_Pale_Blue;
+  font-size: 0.9375rem;
+}
+
+.bg-img {
+  background-image: url(https://raw.githubusercontent.com/abhishek622/interactive-pricing-component-main.github.io/64fce4d87ee0976bf928d7a15471760a57234cc9/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+hr {
+  opacity: 0.3;
+}
+
+.y-space {
+  height: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hide_for_mobile {
+  display: none;
+
+  @include breakpoint-up(medium) {
+    display: inline-block;
+  }
+}
+
+.hide_for_desktop {
+  display: none;
+
+  @include breakpoint-down(small) {
+    display: inline-block;
+  }
+}
