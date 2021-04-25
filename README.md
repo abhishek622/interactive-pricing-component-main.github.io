@@ -1,5 +1,5 @@
-# interactive-pricing-component-main.github.io
+# interactive-pricing-component-main
 
+***Frontend Mentor challange**
 
-
-<a href="https://abhishek622.github.io/interactive-pricing-component-main.github.io/" target="_blank">Visit website</a>
+[Visit website](https://abhishek622.github.io/interactive-pricing-component-main.github.io/) 
